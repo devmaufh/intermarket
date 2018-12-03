@@ -1,10 +1,10 @@
 # Intergrami
 You can: 
 * CRUD products
- * Create
- * Read
- * Update
- * Delete
+ ** Create
+ ** Read
+ ** Update
+ ** Delete
 
 ## License
 
