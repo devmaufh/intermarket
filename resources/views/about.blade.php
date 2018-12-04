@@ -2103,24 +2103,7 @@ p.copyright {
 
 
 
-<div class="content-section-b">
 
-<div class="container">
-
-    <div class="row">
-        <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
-            <hr class="section-heading-spacer">
-            <div class="clearfix"></div>
-            <h2 class="section-heading">Nuestra misión</h2>
-            <p class="lead">Nuestra misión en Intergrami es proporcionar un mercado electrónico mundial en el que cualquier persona pueda comerciar cualquier agro producto, creando así oportunidades económicas por todo el mundo.</p>
-        </div>
-        <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-            <img class="img-responsive" src="https://images.unsplash.com/photo-1527821872005-c9b7adec9302?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e60fe8a0d5aa7100d5ec3595ede197ce&auto=format&fit=crop&w=750&q=80" alt="">
-        </div>
-    </div>
-
-</div>
-<!-- /.container -->
 
 </div>
 <a  name="portfolio"></a>
@@ -2161,52 +2144,9 @@ p.copyright {
 
 
 
-    <!-- /.content-section-a -->
+   
 
-    <div class="content-section-b">
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">3D Device Mockups<br>by PSDCovers</h2>
-                    <p class="lead">Turn your 2D designs into high quality, 3D product shots in seconds using free Photoshop actions by <a target="_blank" href="http://www.psdcovers.com/">PSDCovers</a>! Visit their website to download some of their awesome, free photoshop actions!</p>
-                </div>
-                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                    <img class="img-responsive" src="http://www.johnstrack.com/img/dog.png" alt="">
-                </div>
-            </div>
-
-        </div>
-        <!-- /.container -->
-
-    </div>
-    <!-- /.content-section-b -->
-
-    <div class="content-section-a">
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-5 col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">Google Web Fonts and<br>Font Awesome Icons</h2>
-                    <p class="lead">This template features the 'Lato' font, part of the <a target="_blank" href="https://www.google.com/fonts">Google Web Font library</a>, as well as <a target="_blank" href="http://fontawesome.io">icons from Font Awesome</a>.</p>
-                </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="http://www.johnstrack.com/img/phones.png" alt="">
-                </div>
-            </div>
-
-        </div>
-        <!-- /.container -->
-
-    </div>
-    <!-- /.content-section-a -->
-
+    
 	
     <!-- /.banner -->
 </div>

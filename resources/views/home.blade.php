@@ -23,7 +23,7 @@
                                     @endforeach
                                 </div>
                                 <div class="pull-right">
-                                    <a href="{{ route('showProductByCategory', ['id' => $category->id] ) }}"><button class="btn btn-xs btn-primary ">View more</button></a>
+                                    <a href="{{ route('showProductByCategory', ['id' => $category->id] ) }}"><button class="btn btn-xs btn-primary ">Ver más</button></a>
                                 </div>
                             </div>
                         </div>

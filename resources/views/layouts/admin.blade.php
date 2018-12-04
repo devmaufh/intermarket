@@ -35,7 +35,7 @@
                     </button>
 
                     <!-- Branding Image -->
-                    <a class="navbar-brand" href="{{ route('admin') }}">
+                    <a class="navbar-brand" href="{{ url('/') }}">
                       Intergrami
                     </a>
                 </div>
@@ -43,41 +43,10 @@
                 <div class="collapse navbar-collapse" id="app-navbar-collapse">
                     <!-- Left Side Of Navbar -->
                     <ul class="nav navbar-nav">
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sistema <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="{{route('adminRoles') }}">Roles</a></li>
-                                <li role="separator" class="divider"></li>
-                                <li><a href="{{route('adminUsers') }}">Usuarios</a></li>
-                                <li role="separator" class="divider"></li>
-                                <li><a href="#">Tareas</a></li>
-                            </ul>
-                        </li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Configuración <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="{{ route('adminCountries') }}">Países</a></li>
-                                <li role="separator" class="divider"></li>
-                                <li><a href="{{ route('adminCities') }}">Estados</a></li>
-                                <li role="separator" class="divider"></li>
-                                <li><a href="{{ route('adminDistricts') }}">Ciudades</a></li>
-                                <li role="separator" class="divider"></li>
-                                <li><a href="{{ route('adminAddresses') }}">Direcciones</a></li>
-                                <li role="separator" class="divider"></li>
-                                <li><a href="{{ route('adminTypes') }}">Secciones</a></li>
-                                <li role="separator" class="divider"></li>
-                                <li><a href="{{ route('adminCategories') }}">Categorias</a></li>
-                            </ul>
-                        </li>
+                
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Mercado <span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a href="{{ route('adminShops') }}">Shops</a></li>
-                                <li role="separator" class="divider"></li>
-                                <li><a href="{{ route('adminShopImages') }}">ShopImages</a></li>
-                                <li role="separator" class="divider"></li>
-                                <li><a href="#">Shop Assignments</a></li>
-                                <li role="separator" class="divider"></li>
                                 <li><a href="{{ route('adminProducts') }}">Productos</a></li>
                                 <li role="separator" class="divider"></li>
                                 <li><a href="{{ route('adminOrders') }}">Ordenes</a></li>
@@ -87,7 +56,6 @@
                             <a href="{{ route('adminContacts') }}" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">Contacto </a>
                         </li>
                     </ul>
-
                     <!-- Right Side Of Navbar -->
                     <ul class="nav navbar-nav navbar-right">
                         <!-- Authentication Links -->

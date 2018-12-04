@@ -19,15 +19,15 @@
             <div class="col-md-7 ">
                 <h3>{{ $product->name }}</h3>
                 <div class='border-top'>
-                    <h4>Shop:{{ $product->shop->name }}</h4>
-                    <h3>Price:{{ number_format($product->price) }}MXN</h3>
+                    <h4>Tipo: {{ $product->shop->name }}</h4>
+                    <h3>Precio: {{ number_format($product->price) }}MXN</h3>
                     {{Form::open(['route' => 'cartStore'])}}
                         {{ Form::hidden('id', $product->id) }}
                         {{ Form::hidden('name', $product->name) }}
                         {{ Form::hidden('price', $product->price) }}
                         {{ Form::hidden('image', $product->image) }}
                         <div class="form-inline">
-                            {!! Form::label('qty', 'Quantity') !!}
+                            {!! Form::label('qty', 'Cantidad') !!}
                             <div class="form-controls">
                                 {{ Form::text('qty', 1, ['class'=>'form-control', 'size' => 1 ]) }}
                                 <button class="btn btn-success">Agregar <span class="glyphicon glyphicon-shopping-cart"></span></button>

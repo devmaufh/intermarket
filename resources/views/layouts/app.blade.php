@@ -102,7 +102,7 @@ a:hover, a:focus {
                     </button>
 
                     <!-- Branding Image -->
-                    <a class="navbar-brand" href="{{ url('/') }}">
+                    <a class="navbar-brand" href="{{ url('/about') }}">
                         Intergrami
                     </a>
                 </div>
@@ -141,6 +141,8 @@ a:hover, a:focus {
                                     <li>
                                         <a href="{{ route('usersDetail', 
                                         ['id' => Auth::user()->id]) }}">Administrar mi cuenta</a>
+                                        <a href="{{ route('admin') }}">Mercado</a>
+                                        
                                         <a href="{{ route('logout') }}"
                                             onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
@@ -154,7 +156,7 @@ a:hover, a:focus {
                                 </ul>
                             </li>
                         @endif
-                        <li><a href="{{ route('registerShopCreate') }}"><button class="btn btn-danger btn-xs">Shop Register</button></a></li>
+                        <li><a href="{{ route('adminProductsCreate') }}"><button class="btn btn-danger btn-xs">Registrar producto</button></a></li>
                     </ul>
                 </div>
             </div>
