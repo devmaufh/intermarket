@@ -15,6 +15,7 @@ Auth::routes();
 Route::get('/about', function(){
     return View::make('about');
 });
+Route::get('/api/v1/products','ProductController@getAllApi');
 Route::get('/', 'HomeController@index');
 Route::get('/products/{id}', 'ProductController@show')->name('productsDetail');
 Route::get('/users/{id}', 'UserController@show')->name('usersDetail');

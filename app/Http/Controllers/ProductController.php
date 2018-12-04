@@ -14,4 +14,8 @@ class ProductController extends Controller
         return view('products.productsDetail')
             ->with('product', $product);
     }
+    public function getAllApi(){
+        $products=Product::all();
+        return response()->json($products);
+    }
 }
